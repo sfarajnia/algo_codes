@@ -41,11 +41,9 @@ print(count_merge_sort(L)) #inversions should be 24
 L = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1] 
 print(count_merge_sort(L)) #inversions should be 45
 
-# L = np.random.randint(-20, 100, 100)
-# print(merge_sort(L))
 with open('integer_array.txt') as int_file:
     int_list = []
     for line in int_file:
         int_list.append(int(line))
 
-print(count_merge_sort(int_list)[1])   
+print(count_merge_sort(int_list)[1])  # 2407905288 
